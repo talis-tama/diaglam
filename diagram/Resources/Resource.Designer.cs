@@ -41,131 +41,147 @@ namespace diagram
 			}
 		}
 		
+		public partial class Drawable
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int Icon = 2130837504;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int linearLayout1 = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int linearLayout1 = 2131034113;
 			
-			// aapt resource value: 0x7f040007
-			public const int linearLayout2 = 2130968583;
+			// aapt resource value: 0x7f050007
+			public const int linearLayout2 = 2131034119;
 			
-			// aapt resource value: 0x7f04000f
-			public const int linearLayout3 = 2130968591;
+			// aapt resource value: 0x7f05000f
+			public const int linearLayout3 = 2131034127;
 			
-			// aapt resource value: 0x7f040010
-			public const int linearLayout4 = 2130968592;
+			// aapt resource value: 0x7f050010
+			public const int linearLayout4 = 2131034128;
 			
-			// aapt resource value: 0x7f040014
-			public const int linearLayout5 = 2130968596;
+			// aapt resource value: 0x7f050014
+			public const int linearLayout5 = 2131034132;
 			
-			// aapt resource value: 0x7f040018
-			public const int linearLayout6 = 2130968600;
+			// aapt resource value: 0x7f050018
+			public const int linearLayout6 = 2131034136;
 			
-			// aapt resource value: 0x7f04001c
-			public const int linearLayout7 = 2130968604;
+			// aapt resource value: 0x7f05001c
+			public const int linearLayout7 = 2131034140;
 			
-			// aapt resource value: 0x7f04000b
-			public const int linearLayout8 = 2130968587;
+			// aapt resource value: 0x7f05000b
+			public const int linearLayout8 = 2131034123;
 			
-			// aapt resource value: 0x7f040021
-			public const int linearLayout9 = 2130968609;
+			// aapt resource value: 0x7f050021
+			public const int linearLayout9 = 2131034145;
 			
-			// aapt resource value: 0x7f040020
-			public const int scrollView1 = 2130968608;
+			// aapt resource value: 0x7f050020
+			public const int scrollView1 = 2131034144;
 			
-			// aapt resource value: 0x7f040005
-			public const int space1 = 2130968581;
+			// aapt resource value: 0x7f050005
+			public const int space1 = 2131034117;
 			
-			// aapt resource value: 0x7f040013
-			public const int space2 = 2130968595;
+			// aapt resource value: 0x7f050013
+			public const int space2 = 2131034131;
 			
-			// aapt resource value: 0x7f040017
-			public const int space3 = 2130968599;
+			// aapt resource value: 0x7f050017
+			public const int space3 = 2131034135;
 			
-			// aapt resource value: 0x7f04001b
-			public const int space4 = 2130968603;
+			// aapt resource value: 0x7f05001b
+			public const int space4 = 2131034139;
 			
-			// aapt resource value: 0x7f040023
-			public const int space5 = 2130968611;
+			// aapt resource value: 0x7f050023
+			public const int space5 = 2131034147;
 			
-			// aapt resource value: 0x7f040025
-			public const int space6 = 2130968613;
+			// aapt resource value: 0x7f050025
+			public const int space6 = 2131034149;
 			
-			// aapt resource value: 0x7f040027
-			public const int space7 = 2130968615;
+			// aapt resource value: 0x7f050027
+			public const int space7 = 2131034151;
 			
-			// aapt resource value: 0x7f040008
-			public const int spinner1 = 2130968584;
+			// aapt resource value: 0x7f050008
+			public const int spinner1 = 2131034120;
 			
-			// aapt resource value: 0x7f040009
-			public const int spinner2 = 2130968585;
+			// aapt resource value: 0x7f050009
+			public const int spinner2 = 2131034121;
 			
-			// aapt resource value: 0x7f04000a
-			public const int spinner3 = 2130968586;
+			// aapt resource value: 0x7f05000a
+			public const int spinner3 = 2131034122;
 			
-			// aapt resource value: 0x7f040002
-			public const int textClock1 = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int textClock1 = 2131034114;
 			
-			// aapt resource value: 0x7f040004
-			public const int textClock2 = 2130968580;
+			// aapt resource value: 0x7f050004
+			public const int textClock2 = 2131034116;
 			
-			// aapt resource value: 0x7f040000
-			public const int textView1 = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int textView1 = 2131034112;
 			
-			// aapt resource value: 0x7f040016
-			public const int textView10 = 2130968598;
+			// aapt resource value: 0x7f050016
+			public const int textView10 = 2131034134;
 			
-			// aapt resource value: 0x7f04001a
-			public const int textView11 = 2130968602;
+			// aapt resource value: 0x7f05001a
+			public const int textView11 = 2131034138;
 			
-			// aapt resource value: 0x7f04001e
-			public const int textView12 = 2130968606;
+			// aapt resource value: 0x7f05001e
+			public const int textView12 = 2131034142;
 			
-			// aapt resource value: 0x7f04000d
-			public const int textView13 = 2130968589;
+			// aapt resource value: 0x7f05000d
+			public const int textView13 = 2131034125;
 			
-			// aapt resource value: 0x7f04000c
-			public const int textView14 = 2130968588;
+			// aapt resource value: 0x7f05000c
+			public const int textView14 = 2131034124;
 			
-			// aapt resource value: 0x7f04001f
-			public const int textView15 = 2130968607;
+			// aapt resource value: 0x7f05001f
+			public const int textView15 = 2131034143;
 			
-			// aapt resource value: 0x7f040022
-			public const int textView16 = 2130968610;
+			// aapt resource value: 0x7f050022
+			public const int textView16 = 2131034146;
 			
-			// aapt resource value: 0x7f040024
-			public const int textView17 = 2130968612;
+			// aapt resource value: 0x7f050024
+			public const int textView17 = 2131034148;
 			
-			// aapt resource value: 0x7f040026
-			public const int textView18 = 2130968614;
+			// aapt resource value: 0x7f050026
+			public const int textView18 = 2131034150;
 			
-			// aapt resource value: 0x7f040028
-			public const int textView19 = 2130968616;
+			// aapt resource value: 0x7f050028
+			public const int textView19 = 2131034152;
 			
-			// aapt resource value: 0x7f040003
-			public const int textView2 = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int textView2 = 2131034115;
 			
-			// aapt resource value: 0x7f040006
-			public const int textView3 = 2130968582;
+			// aapt resource value: 0x7f050006
+			public const int textView3 = 2131034118;
 			
-			// aapt resource value: 0x7f04000e
-			public const int textView4 = 2130968590;
+			// aapt resource value: 0x7f05000e
+			public const int textView4 = 2131034126;
 			
-			// aapt resource value: 0x7f040011
-			public const int textView5 = 2130968593;
+			// aapt resource value: 0x7f050011
+			public const int textView5 = 2131034129;
 			
-			// aapt resource value: 0x7f040015
-			public const int textView6 = 2130968597;
+			// aapt resource value: 0x7f050015
+			public const int textView6 = 2131034133;
 			
-			// aapt resource value: 0x7f040019
-			public const int textView7 = 2130968601;
+			// aapt resource value: 0x7f050019
+			public const int textView7 = 2131034137;
 			
-			// aapt resource value: 0x7f04001d
-			public const int textView8 = 2130968605;
+			// aapt resource value: 0x7f05001d
+			public const int textView8 = 2131034141;
 			
-			// aapt resource value: 0x7f040012
-			public const int textView9 = 2130968594;
+			// aapt resource value: 0x7f050012
+			public const int textView9 = 2131034130;
 			
 			static Id()
 			{
@@ -180,8 +196,8 @@ namespace diagram
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -196,41 +212,41 @@ namespace diagram
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
-			// aapt resource value: 0x7f030002
-			public const int initilizing = 2130903042;
+			// aapt resource value: 0x7f040002
+			public const int initilizing = 2130968578;
 			
-			// aapt resource value: 0x7f030006
-			public const int initilizingCar = 2130903046;
+			// aapt resource value: 0x7f040006
+			public const int initilizingCar = 2130968582;
 			
-			// aapt resource value: 0x7f030004
-			public const int initilizingStation = 2130903044;
+			// aapt resource value: 0x7f040004
+			public const int initilizingStation = 2130968580;
 			
-			// aapt resource value: 0x7f030005
-			public const int initilizingTime = 2130903045;
+			// aapt resource value: 0x7f040005
+			public const int initilizingTime = 2130968581;
 			
-			// aapt resource value: 0x7f030003
-			public const int initilizingWeek = 2130903043;
+			// aapt resource value: 0x7f040003
+			public const int initilizingWeek = 2130968579;
 			
-			// aapt resource value: 0x7f030001
-			public const int label1 = 2130903041;
+			// aapt resource value: 0x7f040001
+			public const int label1 = 2130968577;
 			
-			// aapt resource value: 0x7f030007
-			public const int label2 = 2130903047;
+			// aapt resource value: 0x7f040007
+			public const int label2 = 2130968583;
 			
-			// aapt resource value: 0x7f030008
-			public const int label3 = 2130903048;
+			// aapt resource value: 0x7f040008
+			public const int label3 = 2130968584;
 			
-			// aapt resource value: 0x7f030009
-			public const int label4 = 2130903049;
+			// aapt resource value: 0x7f040009
+			public const int label4 = 2130968585;
 			
-			// aapt resource value: 0x7f03000a
-			public const int label5 = 2130903050;
+			// aapt resource value: 0x7f04000a
+			public const int label5 = 2130968586;
 			
-			// aapt resource value: 0x7f03000b
-			public const int label6 = 2130903051;
+			// aapt resource value: 0x7f04000b
+			public const int label6 = 2130968587;
 			
 			static String()
 			{

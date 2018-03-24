@@ -135,7 +135,7 @@ namespace diagram
                 textView6.Text = "元加治駅発";
                 textView7.Text = "秋津駅着　";
             }
-            if ((index3 == 1 && index1 == 0) || index3 == 2) { textView8.Text = "備考"; }
+            if (index3 == 1 || index3 == 2) { textView8.Text = "備考"; }
             else
             {
                 textView8.Text = "";
@@ -298,7 +298,22 @@ namespace diagram
                 gyapsecond = span.Seconds.ToString();
                 if (gyapmin.Length == 1) { gyapmin = "0" + gyapmin; }
                 if (gyapsecond.Length == 1) { gyapsecond = "0" + gyapsecond; }
-                textView13.Text = gyapmin + ":" + gyapsecond;
+                if (gyapmin.Length == 3) { textView13.Text = gyapmin + "分"; }
+                else { textView13.Text = gyapmin + ":" + gyapsecond; }
+            }
+        }
+        void Data()
+        {
+            textView16.Text = "";
+            textView17.Text = "";
+            textView18.Text = "";
+            textView19.Text = "";
+            if (initiliz == true || hour == nexthour && min == nextmin + 1)
+            {
+                if (index1 == 0) { Data_go(); }
+                if (index1 == 1) { Data_back(); }
+                first = true;
+                NextTime();
             }
         }
     }
